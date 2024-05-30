@@ -22,6 +22,12 @@ Feel free to customize these dotfiles to suit your needs. You can modify the exi
 
 If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request. Contributions are always welcome!
 
+## Thanks To
+
+- [Dotfiles Github](https://dotfiles.github.io)
+- [Takuya's dotfiles](https://github.com/craftzdog/dotfiles-public)
+- [Dotfiles for MacOS](https://github.com/driesvints/dotfiles)
+
 ## About me
 
 - [My website](garovu.me)

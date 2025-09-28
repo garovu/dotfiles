@@ -76,11 +76,12 @@ eval "$(zoxide init zsh)"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git macos web-search copypath history kubectl minikube sudo docker helm terraform)
+plugins=(git macos vi-mode web-search copypath history kubectl minikube sudo docker helm terraform)
 
 # Plug-ins list descriptions
 # - git
 # - macos
+# - vi-mode
 # - web-search
 # - history
 # - kubectl: auto completion for kubectl

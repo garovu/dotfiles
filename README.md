@@ -10,17 +10,21 @@ This repository contains my personal dotfiles, which are configuration files for
 
 ## How I set up
 
-- My terminal
-- My shell & alias
-- My tool
+- My terminal: ghostty
+- My shell: zsh
+- My tool: lazydocker, lazygit, fzf, gh, starship, lazy-vim, tmux, etc.
 
 ## How to use
 
-Feel free to customize these dotfiles to suit your needs. You can modify the existing configurations or add new ones. After making any changes, you can run the installation script again to update your environment.
+Clone this repository and use [GNU Stow](https://www.gnu.org/software/stow/) to symlink the configuration files to your home directory:
 
-## Contributing
+```sh
+git clone https://github.com/garovu/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+stow -t ~ <package>
+```
 
-If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request. Contributions are always welcome!
+Replace `<package>` with the folder name you want to stow (e.g., `zsh`, `nvim`, `tmux`). This will create symlinks in your home directory for the selected configuration.
 
 ## Thanks To
 
@@ -30,4 +34,4 @@ If you find any issues or have suggestions for improvement, please feel free to 
 
 ## About me
 
-- [My website](garovu.me)
+- [My website](https://github.com/garovu)

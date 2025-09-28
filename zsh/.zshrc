@@ -4,10 +4,11 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-
 # Starship prompt setup
 eval "$(starship init zsh)"
 
+# zoxide setup
+eval "$(zoxide init zsh)"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -85,7 +86,7 @@ plugins=(git macos web-search copypath history kubectl minikube sudo docker helm
 # - kubectl: auto completion for kubectl
 # - minikube: auto completion for minikube
 
-source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -114,10 +115,18 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#Nvim alias
-alias vim="lvim"
-alias nv="lvim"
-alias lv="lvim"
+# zoxide alias
+alias cd="z"
+
+# Neovim alias
+alias vim="vim"
+alias vi="vim"
+
+# Tmux alias
+alias t="tmux"
+alias ta="tmux attach"
+alias tls="tmux ls"
+alias tn="tmux new -s"
 
 #Quick clear screen 
 alias cl="clear"
@@ -126,6 +135,7 @@ alias c="clear"
 #Docker alias
 alias d="docker"
 alias dc="docker compose"
+alias lzd="lazydocker"
 
 #Ansible alias
 alias a="ansible"
@@ -134,12 +144,16 @@ alias ag="ansible-galaxy"
 
 # Others alias
 alias b="brew"
-alias t="terraform"
+alias te="terraform"
+
+# Kubernetes alias
+alias k="kubectl"
+alias h="helm"
 
 # lsd
-alias ls='lsd'
-alias l='ls -l'
-alias la='ls -a'
-alias lla='ls -la'
-alias lt='ls --tree'
+# alias ls='lsd'
+# alias l='ls -l'
+# alias la='ls -a'
+# alias lla='ls -la'
+# alias lt='ls --tree'
 

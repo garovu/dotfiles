@@ -1,0 +1,59 @@
+# Lazier way to manage everything docker
+brew "lazydocker"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# Very fast implementation of tldr in Rust
+brew "tealdeer"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Memory training application
+cask "anki"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Nerd Font Mono patched font with a high number of glyphs (icons)
+cask "font-jetbrains-mono-nerd-font"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Replacement for Docker Desktop
+cask "orbstack"
+# Open-source code editor
+cask "visual-studio-code"
+vscode "anthropic.claude-code"
+vscode "bierner.markdown-preview-github-styles"
+vscode "bradlc.vscode-tailwindcss"
+vscode "davidanson.vscode-markdownlint"
+vscode "dbaeumer.vscode-eslint"
+vscode "docker.docker"
+vscode "dotjoshjohnson.xml"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "expo.vscode-expo-tools"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "github.github-vscode-theme"
+vscode "github.vscode-pull-request-github"
+vscode "golang.go"
+vscode "hashicorp.terraform"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.makefile-tools"
+vscode "msjsdiag.vscode-react-native"
+vscode "openai.chatgpt"
+vscode "orta.vscode-jest"
+vscode "prisma.prisma"
+vscode "redhat.vscode-yaml"
+vscode "ritwickdey.liveserver"
+vscode "sonarsource.sonarlint-vscode"
+vscode "tim-koehler.helm-intellisense"
+vscode "usernamehw.errorlens"
+vscode "vscodevim.vim"

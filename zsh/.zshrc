@@ -3,6 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export XDG_CONFIG_HOME="$HOME/.config"
 
 # Starship prompt setup
 eval "$(starship init zsh)"
@@ -150,6 +151,9 @@ alias te="terraform"
 # Kubernetes alias
 alias k="kubectl"
 alias h="helm"
+
+# ghostty alias
+alias gty="ghostty"
 
 # lsd
 # alias ls='lsd'
